@@ -1,0 +1,233 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 249, 244);
+}
+
+.dwn{
+    height: 20px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+}
+
+.hdr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-right: 180px;
+    padding-left: 60px;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.hdr > h1{
+    font-size: 45px;
+    font-weight: 900;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+h1 span {
+    color: orange;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.hire-btn {
+    background: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    background: url('header_bg.png') no-repeat right bottom;
+}
+
+.hero img{
+    margin-bottom: -5px;
+    margin-right: -10px;
+}
+
+.dvlpr {
+    /* position: absolute; */
+    height: 774px;
+    width: 136px;
+    margin-left: 50px;
+    
+}
+
+.hero-text {
+    max-width: 40%;
+    margin-left: 50px;
+}
+
+
+/* main section */
+
+.skills-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.do{
+    margin: 0 auto;
+}
+
+.skill {
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 267px;
+    height: 377px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+
+.contact input, .contact textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    background: orange;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.personal {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.fdiv {
+    height: 550px;
+    max-width: 1140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    background-color: rgb(255, 249, 244);
+}
+
+.sdiv {
+    height: 550px;
+    max-width: 1140px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 50px 50px;
+}
+
+.tdiv {
+    height: 550px;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.about {
+    width: 827px;
+    height: 288px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.about > h2{
+    font-size: 32px;
+}
+
+.about > p{
+    font-size: 17px;
+}
+
+.rs {
+    display: flex;
+}
+
+.fticon {
+    display: flex;
+}
+
+.ftr {
+    display: flex;
+    background-color: rgb(255, 249, 244);
+}
+
+.skill > img, h4, p {
+    background-color: #fff;
+}
+
+main {
+    background-color: #f8f8f8;
+}
+
+.btn {
+    background-color: orange;
+    border-radius: 5px;
+    padding: 18px 36px;
+    border: 1px solid orange;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn2 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 18px 36px;
+    border: 1px solid orange;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: rgb(204, 133, 0);
+}
