@@ -5,8 +5,10 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f1f1f1;
 }
 
+/* header section */
 header {
     height: 837px;
     margin-left: 30px;
@@ -20,6 +22,7 @@ header {
     background-color: rgb(255, 184, 91);
     background: url('hardy.png') no-repeat right bottom;
     background-blend-mode: normal;
+}
 
 nav {
     display: flex;
@@ -51,6 +54,56 @@ h3 span {
 }
 
 
+/* main section */
+.about-container {
+    height: 550px;
+    width: 1140px;
+    margin: 100px auto;
+    background-color: rgb(255, 249, 244);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about {
+    width: 827px;
+    height: 288px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+    padding: 0 5px;
+    
+}
+
+.about-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.do-container {
+    height: 550px;
+    width: 1140px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.do-tech{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    gap: 25px;
+}
+
+.tech{
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 267px;
+    height: 377px;
+}
 
 /* shared css */
 .btn1 {
@@ -72,6 +125,8 @@ h3 span {
     font-weight: 400;
     color: orange;
 }
+
+
 
 
 
