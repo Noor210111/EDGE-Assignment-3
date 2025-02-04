@@ -58,7 +58,7 @@ h3 span {
 .about-container {
     height: 550px;
     width: 1140px;
-    margin: 100px auto;
+    margin: 50px auto;
     background-color: rgb(255, 249, 244);
     display: flex;
     align-items: center;
@@ -83,7 +83,7 @@ h3 span {
 .do-container {
     height: 550px;
     width: 1140px;
-    margin: 100px auto;
+    margin: 50px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,6 +104,24 @@ h3 span {
     width: 267px;
     height: 377px;
 }
+
+.summary-container{
+    height: 550px;
+    width: 1140px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.edu-exp-container{
+    display: flex;
+    text-align: left;
+    gap: 10px;
+}
+
+
 
 /* shared css */
 .btn1 {
@@ -127,6 +145,19 @@ h3 span {
 }
 
 
+/* footer section */
+
+footer{
+    height: 780px;
+    margin-top: 300px;
+    background-color: rgb(255, 239, 211);
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p{
+    width: 562px;
+}
 
 
 
