@@ -11,7 +11,7 @@ body {
 /* header section */
 header {
     height: 837px;
-    margin-left: 30px;
+    margin-left: 90px;
     background: 
         url('header_bg.png') no-repeat right bottom,
         url('developer.png') no-repeat left top,
@@ -49,7 +49,7 @@ nav p{
 }
 
 h3 span {
-    color: orange;
+    color: rgb(253, 110, 10);
 }
 
 .banner-container {
@@ -91,7 +91,7 @@ h3 span {
 .about-container {
     height: 550px;
     width: 1140px;
-    margin: 50px auto;
+    margin: 100px auto;
     background-color: rgb(255, 249, 244);
     display: flex;
     align-items: center;
@@ -288,10 +288,10 @@ form button{
 
 /* shared css */
 .btn1 {
-    background-color: orange;
+    background-color: rgb(253, 110, 10);
     border-radius: 5px;
     padding: 18px 20px;
-    border: 1px solid orange;
+    border: 1px solid rgb(253, 110, 10);
     font-size: 20px;
     font-weight: 400;
     color: white;
@@ -301,30 +301,19 @@ form button{
     background-color: rgb(255, 249, 244);
     border-radius: 5px;
     padding: 18px 36px;
-    border: 1px solid orange;
+    border: 1px solid rgb(253, 110, 10);
     font-size: 20px;
     font-weight: 400;
-    color: orange;
+    color: rgb(253, 110, 10);
 }
 
 
 .btn1:hover {
-    background-color: rgb(220, 143, 0);
+    background-color:rgb(198, 87, 8);
 }
 
 .btn2:hover {
-    border: 2px solid rgb(199, 129, 0);
-    color: rgb(206, 134, 0);
+    border: 2px solid rgb(198, 87, 8);
+    color: rgb(198, 87, 8);
     font-weight: 600;
-}
-
-
-.dwn{
-    height: 25px;
-    margin-right: 10px;
-}
-
-.tle{
-    height: 25px;
-    margin-right: 10px;
 }
