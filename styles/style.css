@@ -5,21 +5,23 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f1f1f1;
+    background-color: #fafafa;
 }
 
 /* header section */
 header {
     height: 837px;
     margin-left: 30px;
-    background: url('header_bg.png') no-repeat right bottom, 
-                url('developer.png') no-repeat left top;
+    background: 
+        url('header_bg.png') no-repeat right bottom,
+        url('developer.png') no-repeat left top,
+        rgb(255, 249, 244);
+    background-blend-mode: normal;
 }
 
 .hdr {
     height: 837px;
     margin-right: -30px;
-    background-color: rgb(255, 184, 91);
     background: url('hardy.png') no-repeat right bottom;
     background-blend-mode: normal;
 }
@@ -27,8 +29,17 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     max-width: 1140px;
-    margin: 0 auto;
+    margin: 30px auto;
+}
+
+nav h3{
+    font-size: 45px;
+}
+
+nav p{
+    font-size: 20px;
 }
 
 .nav-link {
@@ -50,7 +61,29 @@ h3 span {
 
 .banner-info {
     max-width: 585px;
-    
+}
+
+.hi{
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: 100px;
+    margin-bottom: -50px;
+}
+
+.mary{
+    font-size: 85px;
+    font-weight: bold;
+    margin-bottom: -1px;
+}
+
+.who{
+    font-size: 18px;
+}
+
+.hdr-btn{
+    margin-top: 30px;
+    display: flex;
+    gap: 25px;
 }
 
 
@@ -73,11 +106,25 @@ h3 span {
     border: 1px solid black;
     padding: 0 5px;
     
+    
 }
 
 .about-info{
     display: flex;
     justify-content: space-between;
+}
+
+.about h2{
+    font-size: 35px;
+    margin-top: 5px;
+}
+
+.about p{
+    font-size: 18px;
+}
+
+.about-info p{
+    font-size: 20px;
 }
 
 .do-container {
@@ -97,12 +144,39 @@ h3 span {
     gap: 25px;
 }
 
+.do-container h2{
+    font-size: 35px;
+}
+
+.do-container p{
+    font-size: 18px;
+}
+
+.do-tech{
+    margin-top: 20px;
+}
+
 .tech{
     background: #ffffff;
-    padding: 10px;
     border-radius: 5px;
     width: 267px;
-    height: 377px;
+}
+
+.tech h4{
+    font-size: 20px;
+}
+
+.tech p{
+    font-size: 16px;
+}
+
+.tech img{
+    margin: 30px;
+    margin-bottom: 0px;
+}
+
+.tech-details{
+    margin: 30px;
 }
 
 .summary-container{
@@ -115,271 +189,142 @@ h3 span {
     text-align: center;
 }
 
+.summary-container h2{
+    font-size: 35px;
+}
+
+.summary-container button{
+    margin: 30px 0;
+}
+
 .edu-exp-container{
     display: flex;
     text-align: left;
-    gap: 10px;
+    gap: 30px;
 }
 
-
-
-/* shared css */
-.btn1 {
-    background-color: orange;
-    border-radius: 5px;
-    padding: 18px 36px;
-    border: 1px solid orange;
-    font-size: 20px;
-    font-weight: 400;
-    color: white;
+.my-education h4,
+.my-experience h4{
+    font-size: 30px;
 }
 
-.btn2 {
-    background-color: white;
-    border-radius: 5px;
-    padding: 18px 36px;
-    border: 1px solid orange;
+.edu-exp h5{
+    font-size: 25px;
+    margin-bottom: -40px;
+}
+
+.edu-exp h6{
     font-size: 20px;
-    font-weight: 400;
-    color: orange;
+    color: #868686;
+    
+}
+
+.edu-exp p{
+    font-size: 16px;
+    color: #868686;
+    margin-top: -25px;
+    max-width: 500px;
 }
 
 
 /* footer section */
 
 footer{
-    height: 780px;
-    margin-top: 300px;
-    background-color: rgb(255, 239, 211);
-    display: flex;
-    justify-content: space-around;
+    height: 580px;
+    margin-top: 470px;
+    background-color: rgb(255, 249, 244);
+    padding-top: 90px;
 }
 
 footer p{
     width: 562px;
 }
 
-
-
-
-
-/* header{
-    display: flex;
-    align-items: center;
-    background-color: rgb(255, 249, 244);
-}
-
-.dwn{
-    height: 20px;
-    padding-right: 15px;
-    padding-bottom: 3px;
-}
-
-.hdr {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    padding-right: 180px;
-    padding-left: 60px;
-    max-width: 1240px;
-    margin: 0 auto;
-}
-
-.hdr > h1{
-    font-size: 45px;
-    font-weight: 900;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    font-size: 20px;
-    font-weight: lighter;
-}
-
-h1 span {
-    color: orange;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-nav a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
-
-.hire-btn {
-    background: orange;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-}
-
-.hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    background: url('header_bg.png') no-repeat right bottom;
-}
-
-.hero img{
-    margin-bottom: -5px;
-    margin-right: -10px;
-}
-
-.dvlpr {
-    
-    height: 774px;
-    width: 136px;
-    margin-left: 50px;
-    
-}
-
-.hero-text {
-    max-width: 40%;
-    margin-left: 50px;
-}
-
-.skills-container {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    padding: 20px;
-}
-
-.do{
-    margin: 0 auto;
-}
-
-.skill {
-    background: #ffffff;
-    padding: 10px;
-    border-radius: 5px;
-    width: 267px;
-    height: 377px;
-}
-
-.contact form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    max-width: 400px;
-    margin: auto;
-}
-
-.contact input, .contact textarea {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.contact button {
-    background: orange;
-    color: white;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-}
-
-.personal {
-    display: flex;
-    justify-content: space-between;
-    font-size: 20px;
-}
-
-.fdiv {
-    height: 550px;
-    max-width: 1140px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px auto;
-    background-color: rgb(255, 249, 244);
-}
-
-.sdiv {
-    height: 550px;
-    max-width: 1140px;
-    margin: 0 auto;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    padding: 50px 50px;
-}
-
-.tdiv {
-    height: 550px;
+.footer-container{
     width: 1140px;
     margin: 0 auto;
-}
-
-.about {
-    width: 827px;
-    height: 288px;
-    text-align: center;
-    background-color: white;
-    border: 1px solid black;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.about > h2{
-    font-size: 32px;
-}
-
-.about > p{
-    font-size: 17px;
-}
-
-.rs {
     display: flex;
+    justify-content: space-around;
 }
 
-.fticon {
+.footer-container h1{
+    font-size: 35px;
+}
+
+.contact p{
+    font-size: 16px;
+}
+
+.ftr-icon{
     display: flex;
+    gap: 25px;
+    margin-top: 25px;
 }
 
-.ftr {
+form{
     display: flex;
-    background-color: rgb(255, 249, 244);
+    flex-direction: column;
+    justify-content: left;
+    font-size: 16px;
 }
 
-.skill > img, h4, p {
-    background-color: #fff;
+form input{
+    padding: 15px 5px;
+    border-radius: 5px;
+    border: none;
 }
 
-main {
-    background-color: #f8f8f8;
+form textarea{
+    padding: 15px 5px;
+    padding-bottom: 65px;
+    border-radius: 5px;
+    border: none;
 }
 
-.btn {
+form button{
+    width: 150px;
+}
+
+
+/* shared css */
+.btn1 {
     background-color: orange;
     border-radius: 5px;
-    padding: 18px 36px;
+    padding: 18px 20px;
     border: 1px solid orange;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
+    color: white;
 }
 
 .btn2 {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 249, 244);
     border-radius: 5px;
     padding: 18px 36px;
     border: 1px solid orange;
     font-size: 20px;
+    font-weight: 400;
+    color: orange;
+}
+
+
+.btn1:hover {
+    background-color: rgb(220, 143, 0);
+}
+
+.btn2:hover {
+    border: 2px solid rgb(199, 129, 0);
+    color: rgb(206, 134, 0);
     font-weight: 600;
 }
 
-button:hover {
-    background-color: rgb(204, 133, 0);
-} */
+
+.dwn{
+    height: 25px;
+    margin-right: 10px;
+}
+
+.tle{
+    height: 25px;
+    margin-right: 10px;
+}
