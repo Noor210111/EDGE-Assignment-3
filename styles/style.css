@@ -64,6 +64,10 @@ nav li a {
     font-weight: bold;
     font-size: 85px;
 }
+
+span{
+    color: rgb(253, 110, 10);
+}
 .banner-profile-pic{
     width: 580px;
 }
