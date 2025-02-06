@@ -307,6 +307,119 @@ form button{
 
 /* responsiveness */
 
+
+@media screen and (max-width: 580px) {
+    /* Header and Navigation */
+    nav {
+        margin: 0 40px;
+    }
+
+    .nav-title {
+        font-size: 30px;
+        margin-left: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .nav-items {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+    }
+
+    /* Banner */
+    .banner {
+        margin: 0 20px;
+    }
+
+    .banner-title {
+        font-size: 50px;
+    }
+
+    .banner-greetings {
+        font-size: 30px;
+    }
+
+    /* About Section */
+    .about-container {
+        margin: 50px auto;
+    }
+
+    .about h2 {
+        font-size: 30px;
+    }
+
+    .about p {
+        font-size: 16px;
+    }
+
+    /* What I Do Section */
+    .do-container h2 {
+        font-size: 30px;
+    }
+
+    .do-container p {
+        font-size: 16px;
+    }
+
+    /* Summary Section */
+    .summary-container h2 {
+        font-size: 30px;
+    }
+
+    .edu-exp h5 {
+        font-size: 20px;
+    }
+
+    .edu-exp h6 {
+        font-size: 16px;
+    }
+
+    .edu-exp p {
+        font-size: 14px;
+    }
+
+    /* Footer */
+    footer {
+        margin-top: 300px;
+    }
+
+    .ftr-icon{
+        display: flex;
+        justify-content: space-around;
+        gap: 0px;
+    }
+
+    .footer-container h1 {
+        font-size: 30px;
+    }
+
+    .contact{
+        width: 400px;
+    }
+
+    .contact p {
+        font-size: 14px;
+    }
+
+    form input,
+    form textarea {
+        font-size: 14px;
+    }
+
+    form button {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     /* Header and Navigation */
     nav {
@@ -404,107 +517,5 @@ form button{
     .message {
         width: 100%;
         max-width: 400px;
-    }
-}
-
-@media screen and (max-width: 580px) {
-    /* Header and Navigation */
-    nav {
-        margin: 0 40px;
-    }
-
-    .nav-title {
-        font-size: 30px;
-        margin-left: 20px;
-    }
-
-    nav ul {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    nav ul li {
-        margin: 10px 0;
-    }
-
-    .nav-items {
-        display: none;
-    }
-    .menu-icon {
-        display: block;
-    }
-
-    /* Banner */
-    .banner {
-        margin: 0 20px;
-    }
-
-    .banner-title {
-        font-size: 50px;
-    }
-
-    .banner-greetings {
-        font-size: 30px;
-    }
-
-    /* About Section */
-    .about-container {
-        margin: 50px auto;
-    }
-
-    .about h2 {
-        font-size: 30px;
-    }
-
-    .about p {
-        font-size: 16px;
-    }
-
-    /* What I Do Section */
-    .do-container h2 {
-        font-size: 30px;
-    }
-
-    .do-container p {
-        font-size: 16px;
-    }
-
-    /* Summary Section */
-    .summary-container h2 {
-        font-size: 30px;
-    }
-
-    .edu-exp h5 {
-        font-size: 20px;
-    }
-
-    .edu-exp h6 {
-        font-size: 16px;
-    }
-
-    .edu-exp p {
-        font-size: 14px;
-    }
-
-    /* Footer */
-    footer {
-        margin-top: 300px;
-    }
-
-    .footer-container h1 {
-        font-size: 30px;
-    }
-
-    .contact p {
-        font-size: 14px;
-    }
-
-    form input,
-    form textarea {
-        font-size: 14px;
-    }
-
-    form button {
-        width: 100%;
     }
 }
